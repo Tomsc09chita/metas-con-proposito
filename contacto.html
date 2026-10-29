@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Metas con Propósito</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CONTACTO</h1>
+        <p>Creciendo con Dios</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="metas.html">Mis metas</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+
+    
+
+    </main>
+
+    <footer>
+        <p>Metas con propósito / Dios y tu futuro</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+<section class="formulario-contacto">
+    <h2>Contáctanos</h2>
+    <p>Estamos aquí para leerte.</p>
+
+    <form action="procesar.php" method="POST">
+
+        <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre"
+                   placeholder="Escribe tu nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo"
+                   placeholder="Escribe tu correo" required>
+        </div>
+
+        <div class="campo">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto"
+                   placeholder="¿Sobre qué quieres hablar?" required>
+        </div>
+
+        <div class="campo">
+            <label for="mensaje">Tu mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5"
+                      placeholder="Escribe tu mensaje aquí..."
+                      required></textarea>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+
+    </form>
+</section>
